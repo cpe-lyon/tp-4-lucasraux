@@ -33,8 +33,22 @@ Avec la commade apt:
 
 #### 7. A quoi servent les paquets glances, tldr et hollywood ? Installez-les et testez-les.
 
+glances:
+Est un utilitaire qui permet d'afficher un maximum d'information dans un minimum de place ainsi que des informations supplémentaire.
+
+tldr:
+Est un utilitaire qui permet d'avoir des pages de manuel simplifiées et gérées par la communauté.
+
+hollywood:
+Permet de simuler une fenêtre de hacking comme au cinéma.
+
 #### 8. Quels paquets proposent de jouer au sudoku ? 
 N’installez pas le paquet gnome-sudoku ou ksudoku sous peine de devoir probablement réinstaller
 votre VM
 
 C'est la paquets ksudoku qui nous propose de jouer au sudoku
+
+### Exercice 2.
+#### A partir de quel paquet est installée la commande ls ? Comment obtenir cette information en une seule commande, pour n’importe quel programme ? Utilisez la réponse à cette question pour écrire un script appelé origine-commande (sans l’extension .sh) prenant en argument le nom d’une commande, etindiquant quel paquet l’a installée.
+
+
