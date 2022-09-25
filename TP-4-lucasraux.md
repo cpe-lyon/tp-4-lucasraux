@@ -75,6 +75,10 @@ C'est la paquets ksudoku qui nous propose de jouer au sudoku
 ### Exercice 5. aptitude
 #### Installez les paquets emacs et lynx à l’aide de la version graphique d’aptitude (et prenez deux minutes pour vous renseigner et tester ces paquets).
 
+Le paquets emacs est un éditeurs de texte, mais également regarder des images ou lire des mails.
+
+Le paquets lynx est un navigateur web en mode texte.
+
 ### Exercice 6. Installation d’un paquet par PPA
 #### Certains logiciels ne figurent pas dans les dépôts officiels. C’est le cas par exemple de la version ”officielle” de Java depuis qu’elle est développée par Oracle. Dans ces cas, on peut parfois se tourner vers un ”dépôt personnel” ou PPA.
 
