@@ -4,19 +4,20 @@
 
 #### 1. Commencez par mettre à jour votre système avec les commandes vues dans le cours.
 
-Pour mettre à jour le sustème on utilise la commande : sudo apt-get update && apt-get upgrade
+Pour mettre à jour le système à jour, on utilise la commande : sudo apt-get update && apt-get upgrade
 
 #### 2. Créez un alias “maj” de la ou des commande(s) de la question précédente. Où faut-il enregistrer cet alias pour qu’il ne soit pas perdu au prochain redémarrage ?
 
-Pour creer un alias on utilise la commande : alias maj='sudo apt-get update && apt-get upgrade'
+Pour créer un alias on utilise la commande : alias maj='sudo apt-get update && apt-get upgrade'
 
-Pour que cette alias soit enregistrer, il faut ecrire l'alias dans le fichier .bashrc
+Pour que cette alias soit enregistrer, il faut ecrire l'alias dans le fichier .bashrc.
 
 #### 3. Utilisez le fichier /var/log/dpkg.log pour obtenir les 5 derniers paquets installés sur votre machine.
 
 
 
 #### 4. Listez les derniers paquets qui ont été installés explicitement avec la commande apt install
+
 
 #### 5. Utilisez les commandes dpkg et apt pour compter de deux manières différentes le nombre de total de paquets installés sur la machine (ne pas hésiter à consulter le manuel !). Comment explique-t-on la (petite) différence de comptage ? Pourquoi ne peut-on pas utiliser directement le fichier dpkg.log ?
 
@@ -43,7 +44,7 @@ hollywood:
 Permet de simuler une fenêtre de hacking comme au cinéma.
 
 #### 8. Quels paquets proposent de jouer au sudoku ? 
-N’installez pas le paquet gnome-sudoku ou ksudoku sous peine de devoir probablement réinstaller
+N’installez pas le paquet gnome-sudoku ou ksudoku sous peine de devoir probablement réinstaller
 votre VM
 
 C'est la paquets ksudoku qui nous propose de jouer au sudoku
