@@ -38,6 +38,8 @@ Avec la commande dpkg:
 Avec la commade apt:
 ![image](https://user-images.githubusercontent.com/80454458/191690033-0483dfc3-2a9d-47de-98b2-f7f9aaafbb93.png)
 
+La différence de comptage viens de 
+
 #### 6. Combien de paquets sont disponibles en téléchargement sur les dépôts Ubuntu ?
 
 ![image](https://user-images.githubusercontent.com/80454458/191690313-abbd88e5-6099-4ab4-b62a-563ab610f8b0.png)
