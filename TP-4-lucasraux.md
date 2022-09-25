@@ -12,12 +12,22 @@ Pour créer un alias on utilise la commande : alias maj='sudo apt-get update && 
 
 Pour que cette alias soit enregistrer, il faut ecrire l'alias dans le fichier .bashrc.
 
+![image](https://user-images.githubusercontent.com/80454458/192150423-a6a3d0c9-a2fb-4706-bb44-7b9714fce81d.png)
+
+
+![image](https://user-images.githubusercontent.com/80454458/192150513-a3564989-d121-4c4b-9ed5-c69af721b93e.png)
+
 #### 3. Utilisez le fichier /var/log/dpkg.log pour obtenir les 5 derniers paquets installés sur votre machine.
 
+Pour obtenir les 5 derniers paquets installés sur votre machine on utilise la commande grep "installed" /var/log/dpkg.log | tail -n5
 
+![image](https://user-images.githubusercontent.com/80454458/192150768-235abe51-fcbf-4dda-9781-6a6c08e3b200.png)
 
 #### 4. Listez les derniers paquets qui ont été installés explicitement avec la commande apt install
 
+Pour retrouver les derniers paquets installés avec la commande apt install on utilise la commande grep "apt install" /var/log/apt/history.log
+
+![image](https://user-images.githubusercontent.com/80454458/192151073-8d9a45f5-07ab-48c1-92e5-1a854c5ba943.png)
 
 #### 5. Utilisez les commandes dpkg et apt pour compter de deux manières différentes le nombre de total de paquets installés sur la machine (ne pas hésiter à consulter le manuel !). Comment explique-t-on la (petite) différence de comptage ? Pourquoi ne peut-on pas utiliser directement le fichier dpkg.log ?
 
@@ -56,6 +66,8 @@ C'est la paquets ksudoku qui nous propose de jouer au sudoku
 
 ### Exercice 3.
 #### Ecrire une commande qui affiche “INSTALLÉ” ou “NON INSTALLÉ” selon le nom et le statut du package spécifié dans cette commande.
+
+
 
 ### Exercice 4.
 #### Lister les programmes livrés avec coreutils. En particulier, on remarque que l’un deux se nomme [. De
