@@ -98,7 +98,11 @@ le programe correspond a un equivalent de la commande test que l'on retrouve dan
 
 Le paquets emacs est un éditeurs de texte, mais également regarder des images ou lire des mails.
 
+![image](https://user-images.githubusercontent.com/80454458/192214582-29d47463-97fa-43bb-97a7-9ba9fc51b695.png)
+
 Le paquets lynx est un navigateur web en mode texte.
+
+![image](https://user-images.githubusercontent.com/80454458/192214656-0ede0e66-3f68-4972-855f-b23ca75d422f.png)
 
 ### Exercice 6. Installation d’un paquet par PPA
 #### Certains logiciels ne figurent pas dans les dépôts officiels. C’est le cas par exemple de la version ”officielle” de Java depuis qu’elle est développée par Oracle. Dans ces cas, on peut parfois se tourner vers un ”dépôt personnel” ou PPA.
