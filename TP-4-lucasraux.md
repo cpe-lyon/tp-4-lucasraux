@@ -123,6 +123,8 @@ sudo apt install oracle-java15-installer
 git clone https://gitlab.com/jallbrit/cbonsai
 Ceci permet de récupérer en local le code source du logiciel cbonsai.
 
+![image](https://user-images.githubusercontent.com/80454458/192217536-ffa2d556-8e5b-4c64-bdd3-5049855f517f.png)
+
 2. Rendez vous dans le dossier cbonsai. Un fichier README.md) est livré avec les sources, et vous explique
 comment compiler le programme (vous pouvez installer un lecteur de Markdown pour Bash, comme
 mdless pour vous faciliter la lecture de ce type de fichiers).
