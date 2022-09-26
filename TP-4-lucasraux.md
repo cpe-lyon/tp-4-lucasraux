@@ -70,6 +70,7 @@ C'est la paquets ksudoku qui nous propose de jouer au sudoku
 Pour obtenir cette information pour n'importe quel programme, on utilise la commande dpkg -S nom_programme | grep "/nom_programme"
 
 Le programme :
+
 ![image](https://user-images.githubusercontent.com/80454458/192208068-b8427713-ec93-4dbd-b7b3-0771bf2b5f2a.png)
 
 
