@@ -84,11 +84,14 @@ Le resultat avec tldr :
 ![image](https://user-images.githubusercontent.com/80454458/192210369-d0f7a44c-6b33-4761-8d19-5f21992dd981.png)
 
 ### Exercice 4.
-#### Lister les programmes livrés avec coreutils. En particulier, on remarque que l’un deux se nomme [. De
+#### Lister les programmes livrés avec coreutils. En particulier, on remarque que l’un deux se nomme ([.) de quoi s'agit-il ?
 
 Pour lister les programmes livrés avec coreutils, on utilise la commande dpkg -L coreutils.
 
 ![image](https://user-images.githubusercontent.com/80454458/192205993-3d11812e-cf22-4616-8fb0-a5af68c4bddb.png)
+
+le programe correspond a un equivalent de la commande test que l'on retrouve dans les programmes Bash par exemple avec la condition if []; then
+                          fi
 
 ### Exercice 5. aptitude
 #### Installez les paquets emacs et lynx à l’aide de la version graphique d’aptitude (et prenez deux minutes pour vous renseigner et tester ces paquets).
