@@ -193,9 +193,12 @@ Priority: optional #ce n'est pas un paquet indispendable
 3. Revenez dans le dossier parent de origine-commande (normalement, c’est votre $HOME) et tapez la commande suivante pour construire le paquet :
 dpkg-deb --build origine-commande
 
+![image](https://user-images.githubusercontent.com/80454458/192244173-b6bf409f-9e39-4e99-9ead-4c2f09d0c2d8.png)
+
 Félicitations ! Vous avez créé votre propre paquet !
 
 ### Création du dépôt personnel avec reprepro
+
 1. Dans votre dossier personnel, commencez par créer un dossier repo-cpe. Ce sera la racine de votre dépôt
 
 2. Ajoutez-y deux sous-dossiers : conf (qui contiendra la configuration du dépôt) et packages (qui contiendra nos paquets)
