@@ -75,6 +75,8 @@ C'est la paquets ksudoku qui nous propose de jouer au sudoku
 
 Pour lister les programmes livrés avec coreutils, on utilise la commande dpkg -L coreutils.
 
+![image](https://user-images.githubusercontent.com/80454458/192205993-3d11812e-cf22-4616-8fb0-a5af68c4bddb.png)
+
 ### Exercice 5. aptitude
 #### Installez les paquets emacs et lynx à l’aide de la version graphique d’aptitude (et prenez deux minutes pour vous renseigner et tester ces paquets).
 
