@@ -172,7 +172,7 @@ Vous pouvez à présent profiter d’un instant de zenitude avant de passer au d
 
 ![image](https://user-images.githubusercontent.com/80454458/192240473-d21c2bb8-e3fb-4515-82fa-f48734c04d09.png)
 
-Exercice 8. Création de dépôt personnalisé
+### Exercice 8. Création de dépôt personnalisé
 
 Dans cet exercice, vous allez créer vos propres paquets et dépôts, ce qui vous permettra de gérer les
 programmes que vous écrivez comme s’ils provenaient de dépôts officiels.
