@@ -132,6 +132,25 @@ Un fichier Makefile est également présent. Un Makefile est un fichier utilisé
 contient toutes les directives de compilation d’un logiciel. Un Makefile définit un certain nombre de
 règles permettant de construire des cibles. Les cibles les plus communes étant install (pour la compilation et l’installation du logiciel) et clean (pour sa suppression).
 En suivant les consignes du fichier README.md, et en installant les éventuels paquets manquants, compilez ce programme et installez le en local.
+
+sudo apt install libncursesw5-dev
+
+![image](https://user-images.githubusercontent.com/80454458/192220746-bbfc54ac-0927-4ffd-a6dd-60516c3e156b.png)
+
+sudo apt install make 
+
+![image](https://user-images.githubusercontent.com/80454458/192220866-4b580ded-d40b-4908-8f99-dcbdc5af8313.png)
+
+sudo make install
+
+![image](https://user-images.githubusercontent.com/80454458/192220963-db618d09-4636-4f0e-8805-afeedc8d6e38.png)
+
+![image](https://user-images.githubusercontent.com/80454458/192221026-2b556d95-4018-4601-82c1-c16ad91caffe.png)
+
+Puis on lance cbonsai :
+
+![image](https://user-images.githubusercontent.com/80454458/192221215-5fa616bd-1b12-4c07-9996-a5ef2d0240fb.png)
+
 3. Malheureusement, cette installation “à la main” fait qu’on ne dispose pas des bénéfices de la gestion
 de paquets apportés par dpkg ou apt. Heureusement, il est possible de transformer un logiciel installé
 “à la main” en un paquet, et de le gérer ensuite avec apt ; c’est ce que permet par exemple l’outil
