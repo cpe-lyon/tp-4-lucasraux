@@ -39,7 +39,7 @@ Avec la commade apt:
 
 ![image](https://user-images.githubusercontent.com/80454458/191690033-0483dfc3-2a9d-47de-98b2-f7f9aaafbb93.png)
 
-La différence de comptage viens de 
+La différence de comptage viens du fais que dpkg ne gère pas les dépendances.
 
 #### 6. Combien de paquets sont disponibles en téléchargement sur les dépôts Ubuntu ?
 
@@ -66,6 +66,16 @@ C'est la paquets ksudoku qui nous propose de jouer au sudoku
 #### A partir de quel paquet est installée la commande ls ? Comment obtenir cette information en une seule commande, pour n’importe quel programme ? Utilisez la réponse à cette question pour écrire un script appelé origine-commande (sans l’extension .sh) prenant en argument le nom d’une commande, etindiquant quel paquet l’a installée.
 
 ![image](https://user-images.githubusercontent.com/80454458/191694724-9206b3f5-845b-47cb-b4e6-5452aa0c35e3.png)
+
+Pour obtenir cette information pour n'importe quel programme, on utilise la commande dpkg -S nom_programme | grep "/nom_programme"
+
+Le programme :
+![image](https://user-images.githubusercontent.com/80454458/192208068-b8427713-ec93-4dbd-b7b3-0771bf2b5f2a.png)
+
+
+Le resultat avec tldr :
+![image](https://user-images.githubusercontent.com/80454458/192207955-2d37c936-db23-45b3-a75f-c3a4e896f6f4.png)
+
 
 ### Exercice 3.
 #### Ecrire une commande qui affiche “INSTALLÉ” ou “NON INSTALLÉ” selon le nom et le statut du package spécifié dans cette commande.
