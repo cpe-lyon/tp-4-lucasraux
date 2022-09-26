@@ -81,6 +81,8 @@ Le resultat avec tldr :
 ### Exercice 3.
 #### Ecrire une commande qui affiche “INSTALLÉ” ou “NON INSTALLÉ” selon le nom et le statut du package spécifié dans cette commande.
 
+![image](https://user-images.githubusercontent.com/80454458/192210369-d0f7a44c-6b33-4761-8d19-5f21992dd981.png)
+
 ### Exercice 4.
 #### Lister les programmes livrés avec coreutils. En particulier, on remarque que l’un deux se nomme [. De
 
