@@ -156,10 +156,15 @@ de paquets apportés par dpkg ou apt. Heureusement, il est possible de transform
 “à la main” en un paquet, et de le gérer ensuite avec apt ; c’est ce que permet par exemple l’outil
 checkinstall.
 
+sudo checkinstall
+
+![image](https://user-images.githubusercontent.com/80454458/192225599-de9f3090-fad9-4c85-ba50-9b9be87c62ba.png)
 
 
 4. Recommencez la compilation à l’aide de checkinstall :
+
 sudo checkinstall
+
 Un paquet a été créé (fichier xxx.deb), et le logiciel est à présent installé (tapez cbonsai depuis n’importe
 quel dossier pour vous en assurer) ; on peut vérifier par exemple avec aptitude qu’il provient bien du paquet
 qu’on a créé avec checkinstall.
