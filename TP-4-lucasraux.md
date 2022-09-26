@@ -155,6 +155,9 @@ Puis on lance cbonsai :
 de paquets apportés par dpkg ou apt. Heureusement, il est possible de transformer un logiciel installé
 “à la main” en un paquet, et de le gérer ensuite avec apt ; c’est ce que permet par exemple l’outil
 checkinstall.
+
+
+
 4. Recommencez la compilation à l’aide de checkinstall :
 sudo checkinstall
 Un paquet a été créé (fichier xxx.deb), et le logiciel est à présent installé (tapez cbonsai depuis n’importe
