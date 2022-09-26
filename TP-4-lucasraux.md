@@ -70,10 +70,10 @@ C'est la paquets ksudoku qui nous propose de jouer au sudoku
 ### Exercice 3.
 #### Ecrire une commande qui affiche “INSTALLÉ” ou “NON INSTALLÉ” selon le nom et le statut du package spécifié dans cette commande.
 
-![image](https://user-images.githubusercontent.com/80454458/192203036-91baf652-85c4-4b04-aa3b-16a3de9fb6d1.png)
-
 ### Exercice 4.
 #### Lister les programmes livrés avec coreutils. En particulier, on remarque que l’un deux se nomme [. De
+
+Pour lister les programmes livrés avec coreutils, on utilise la commande dpkg -L coreutils.
 
 ### Exercice 5. aptitude
 #### Installez les paquets emacs et lynx à l’aide de la version graphique d’aptitude (et prenez deux minutes pour vous renseigner et tester ces paquets).
